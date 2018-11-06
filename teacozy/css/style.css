@@ -1,0 +1,125 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: helvetica;
+  text-transform: capitalize;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin-top: 0px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 70px;
+}
+
+#at {
+  text-transform: lowercase;
+}
+
+
+.teas {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.stores {
+  display: flex;
+  flex-direction: column;
+}
+
+.locations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.mission {
+  display: flex;
+  align-items: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+/* header */
+
+.header {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  background-color: black;
+  align-items: center;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+a {
+  color: seashell;
+}
+
+nav span {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+/* mission */
+
+.banner .statement {
+  background-color: black;
+  text-align: center;
+  width: 1200px;
+}
+
+/* monthly teas */
+
+.teas img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.teas .product {
+  width: 300px;
+}
+
+.product {
+  padding: 10px;
+}
+
+.locations .geo {
+  margin: 0px 20px;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+}
+
+
+.stores .statement {
+  margin-bottom: 15px;
+}
+.copyright span {
+  text-align: left;
+}
